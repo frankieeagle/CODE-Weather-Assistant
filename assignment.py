@@ -7,9 +7,9 @@
 
 def main():
     user_temperature = int(input("What is the temperature outside: "))
-    print(user_temperature)
+    #print(user_temperature)
     temp_in_c = ((user_temperature-32)*0.5556)
-    print(temp_in_c)
+    #print(temp_in_c)
 
     if temp_in_c > 20:
         print("\nWear a hat")
